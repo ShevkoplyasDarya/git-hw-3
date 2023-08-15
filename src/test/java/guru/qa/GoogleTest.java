@@ -22,6 +22,7 @@ public class GoogleTest {
         Selenide.open("https://google.com");
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("https://selenide.org"));
-        // doing some changes
+        // adding other changes for conflict
+        // adding other changes for conflict
     }
 }
